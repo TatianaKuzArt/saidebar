@@ -3,7 +3,7 @@ body {
     width: 100%;
     min-height: 100vh;
     font-family: "TT Lakes";
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     font-size: 16px;
 }
 
@@ -27,12 +27,12 @@ ul {
         display: grid;
         grid-template-columns: 50px 150px 50px;
         padding-left: 24px;
-        justify-items:left;
+        justify-items: left;
         align-items: center;
         height: 70px;
 
         .header_burger {
-            background-image: url('/svg/burger.svg');
+            background-image: url('./svg/burger.svg');
             background-size: 40px 40px;
             background-repeat: no-repeat;
             background-position: center;
@@ -40,11 +40,13 @@ ul {
             height: 40px;
             padding: 0;
         }
+
         .header_burger:hover {
             filter: contrast(1000%)
         }
+
         .header_group {
-            background-image: url('/svg/Group.svg');
+            background-image: url('./svg/Group.svg');
             background-size: 97px 51px;
             background-repeat: no-repeat;
             background-position: center;
@@ -52,8 +54,9 @@ ul {
             height: 51px;
             padding: 0;
         }
+
         .header_search {
-            background-image: url('/svg/search.png');
+            background-image: url('./svg/search.png');
             background-size: 40px 40px;
             background-repeat: no-repeat;
             background-position: center;
@@ -61,16 +64,16 @@ ul {
             height: 40px;
             padding: 0;
         }
-        
+
         .header_search:hover {
             filter: contrast(1000%)
         }
-    
+
     }
 
     .menu__items {
         padding: 0;
-    
+
         .menu__item {
             width: 132px;
             height: 24px;
@@ -80,8 +83,8 @@ ul {
         }
 
         .menu__item_active {
-            background-image: url("/svg/highlight.svg");
-            background-position: left; 
+            background-image: url("./svg/highlight.svg");
+            background-position: left;
             background-size: 4px 40px;
             background-repeat: no-repeat;
             padding-left: 40px;
@@ -89,7 +92,7 @@ ul {
         }
     }
 
-    .footer { 
+    .footer {
         display: grid;
 
         .contact {
@@ -99,34 +102,40 @@ ul {
             height: 40px;
 
             .contact__call {
-                background-image: url('/svg/call.svg');
+                background-image: url('./svg/call.svg');
                 background-size: 40px 40px;
                 background-repeat: no-repeat;
                 background-position: center;
             }
+
             .contact__call:hover {
                 filter: contrast(1000%)
             }
+
             .contact__chat {
-                background-image: url('/svg/chat.svg');
+                background-image: url('./svg/chat.svg');
                 background-size: 40px 40px;
                 background-repeat: no-repeat;
                 background-position: center;
             }
+
             .contact__chat:hover {
                 filter: contrast(1000%)
             }
+
             .contact__profile {
-                background-image: url('/svg/profile.svg');
+                background-image: url('./svg/profile.svg');
                 background-size: 40px 40px;
                 background-repeat: no-repeat;
                 background-position: center;
             }
+
             .contact__profile:hover {
                 filter: contrast(1000%)
             }
 
         }
+
         .footer__email {
             padding-left: 24px;
             padding-top: 20px;
@@ -134,10 +143,11 @@ ul {
             text-decoration: none;
             color: black;
         }
+
         .footer__phone {
             padding-left: 24px;
             font-size: 24px;
-         
+
         }
     }
 
@@ -150,11 +160,11 @@ ul {
         .langlist_lang {
             padding: 0 5px 0 5px;
         }
-        
+
 
         .langlist_lang__active {
             color: #7E7E82;
         }
-    }   
+    }
 }
 
