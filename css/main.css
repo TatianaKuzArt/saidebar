@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "TT Lakes";
+    background-color:#FFFFFF;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-rows: 100px 1fr auto auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    width: 320px;
+    box-shadow: 2px 2px 50px #0E185033;
+    margin: 0;
+
+    .header {
+        display: grid;
+        grid-template-columns: 50px 150px 50px;
+        padding-left: 24px;
+        justify-items:left;
+        align-items: center;
+        height: 70px;
+
+        .header_burger {
+            background-image: url('/svg/burger.svg');
+            background-size: 40px 40px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+        }
+        .header_burger:hover {
+            filter: contrast(1000%)
+        }
+        .header_group {
+            background-image: url('/svg/Group.svg');
+            background-size: 97px 51px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 97px;
+            height: 51px;
+            padding: 0;
+        }
+        .header_search {
+            background-image: url('/svg/search.png');
+            background-size: 40px 40px;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+        }
+        
+        .header_search:hover {
+            filter: contrast(1000%)
+        }
+    
+    }
+
+    .menu__items {
+        padding: 0;
+    
+        .menu__item {
+            width: 132px;
+            height: 24px;
+            white-space: nowrap;
+            line-height: 24px;
+            padding: 10px 0px 10px 40px;
+        }
+
+        .menu__item_active {
+            background-image: url("/svg/highlight.svg");
+            background-position: left; 
+            background-size: 4px 40px;
+            background-repeat: no-repeat;
+            padding-left: 40px;
+            color: #7E7E82;
+        }
+    }
+
+    .footer { 
+        display: grid;
+
+        .contact {
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+            padding-left: 24px;
+            height: 40px;
+
+            .contact__call {
+                background-image: url('/svg/call.svg');
+                background-size: 40px 40px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .contact__call:hover {
+                filter: contrast(1000%)
+            }
+            .contact__chat {
+                background-image: url('/svg/chat.svg');
+                background-size: 40px 40px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .contact__chat:hover {
+                filter: contrast(1000%)
+            }
+            .contact__profile {
+                background-image: url('/svg/profile.svg');
+                background-size: 40px 40px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .contact__profile:hover {
+                filter: contrast(1000%)
+            }
+
+        }
+        .footer__email {
+            padding-left: 24px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-decoration: none;
+            color: black;
+        }
+        .footer__phone {
+            padding-left: 24px;
+            font-size: 24px;
+         
+        }
+    }
+
+    .langlist {
+        display: flex;
+        padding-left: 19px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+
+        .langlist_lang {
+            padding: 0 5px 0 5px;
+        }
+        
+
+        .langlist_lang__active {
+            color: #7E7E82;
+        }
+    }   
+}
+
