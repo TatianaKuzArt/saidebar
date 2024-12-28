@@ -32,7 +32,7 @@ ul {
         height: 70px;
 
         .header_burger {
-            background-image: url('./svg/burger.svg');
+            background-image: url('../svg/burger.svg');
             background-size: 40px 40px;
             background-repeat: no-repeat;
             background-position: center;
@@ -46,7 +46,7 @@ ul {
         }
 
         .header_group {
-            background-image: url('./svg/Group.svg');
+            background-image: url('../svg/Group.svg');
             background-size: 97px 51px;
             background-repeat: no-repeat;
             background-position: center;
@@ -56,7 +56,7 @@ ul {
         }
 
         .header_search {
-            background-image: url('./svg/search.png');
+            background-image: url('../svg/search.png');
             background-size: 40px 40px;
             background-repeat: no-repeat;
             background-position: center;
@@ -79,11 +79,11 @@ ul {
             height: 24px;
             white-space: nowrap;
             line-height: 24px;
-            padding: 10px 0px 10px 40px;
+            padding: 10px 0 10px 40px;
         }
 
         .menu__item_active {
-            background-image: url("./svg/highlight.svg");
+            background-image: url("../svg/highlight.svg");
             background-position: left;
             background-size: 4px 40px;
             background-repeat: no-repeat;
@@ -102,7 +102,7 @@ ul {
             height: 40px;
 
             .contact__call {
-                background-image: url('./svg/call.svg');
+                background-image: url('../svg/call.svg');
                 background-size: 40px 40px;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -113,7 +113,7 @@ ul {
             }
 
             .contact__chat {
-                background-image: url('./svg/chat.svg');
+                background-image: url('../svg/chat.svg');
                 background-size: 40px 40px;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -124,7 +124,7 @@ ul {
             }
 
             .contact__profile {
-                background-image: url('./svg/profile.svg');
+                background-image: url('../svg/profile.svg');
                 background-size: 40px 40px;
                 background-repeat: no-repeat;
                 background-position: center;
